@@ -1,21 +1,21 @@
 ### 🍋 运行时数据区
 
-​	🚩[JVM故障诊断与性能优化--运行时数据区（一）](https://shiker.gitee.io/8660/)
+​	🚩[JVM故障诊断与性能优化--运行时数据区（一）](https://www.shiker.tech/archives/814)
 
-​	🚩[jvm运行时数据区与内存管理机制](https://shiker.gitee.io/58258/)
+​	🚩[jvm运行时数据区与内存管理机制](https://www.shiker.tech/archives/818)
 
-​	🚩[jvm故障诊断与性能优化（六）--分析Java堆](https://shiker.gitee.io/35647/)
+​	🚩[jvm故障诊断与性能优化（六）--分析Java堆](https://www.shiker.tech/archives/768)
 
 ​	📌线程共享的区域包括java堆和方法区，java堆分为新生代和老年代，方法区存放class文件信息。对象过大会导致堆溢出。
 ​	线程私有的为虚拟机栈、本地方法栈与程序计数器，递归可能导致栈溢出。
 ​	java栈指的是虚拟机栈
 
 ### 🍞垃圾回收机制
-​	🚩[JVM故障诊断与性能优化--垃圾回收概念与算法（三）](https://shiker.gitee.io/3922/)
+​	🚩[JVM故障诊断与性能优化--垃圾回收概念与算法（三）](https://www.shiker.tech/archives/808)
 
-​	🚩[jvm垃圾收集器与内存分配策略](https://shiker.gitee.io/10397/)
+​	🚩[jvm垃圾收集器与内存分配策略](https://www.shiker.tech/archives/816)
 
-​	🚩[JVM故障诊断与性能优化-垃圾收集器与内存分配（四）](https://shiker.gitee.io/21629/)
+​	🚩[JVM故障诊断与性能优化-垃圾收集器与内存分配（四）](https://www.shiker.tech/archives/804)
 
 ​	📌新生代的收集方法为复制算法；老年代的收集算法为标记整理、标记清除算法。对Java堆中不同的区域采用不同的方法为分代收集算法。
 ​	根据串行/并行方式以及垃圾收集算法的不同，产生了不同的垃圾收集器
