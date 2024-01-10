@@ -63,9 +63,3 @@ java栈指的是虚拟机栈
 [线程安全与锁优化](https://blog.csdn.net/yinweicheng/article/details/80918901)
 
 了解常用锁定义，明白偏向锁，轻量级锁，重量级锁的原理。
-示例代码：
-[深入理解JVM](https://github.com/shiker1996/JVMdemo)
-
-[JVM调优](https://github.com/shiker1996/JVMpractice)
-
-[ASM](https://github.com/shiker1996/asm)
